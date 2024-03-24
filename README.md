@@ -35,4 +35,4 @@ We welcome contributions from the community! If you have solutions to share or w
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
