@@ -1,0 +1,30 @@
+Pour le premier  challenge
+
+- chercher des page de connexion qui sont rester ouverte ( --> on a trouver login.php qui es une page de connexion)
+- Pour avoir le username on a exploiter le code source de la page
+- Pour avoir le mot de passe on a utiliser une page web cache qui etais dans une page (robots.txt)
+- Ensuite on a eu un shell et on a utiliser la commande cat en base 64 (echo "commande<en base 64> | base64 -d | bash") et on a obtenu le 1er flag
+- Ensuite j'ai fais un reverse shell
+- Ensuite j'ai changer d'utilisateur et j'ai eu le optional_flag
+- Ensuite apres avoir vue sa j'ai decouvert un programme qui appartenait au root et c'etait un executable
+- Apres avoir fait des recherches j'ai vue qu'on pouvait ouvrir un shell en tant que root avec le flag -p alors j'ai execute le binaire avec l'option -p
+- Ensuite je suis rentrer dans le root et j'ai eu le flag
+
+
+
+
+
+
+---- Pour le deuxieme challenge
+
+- je me suis connecter a un service en tant que anonyme
+- ensuite j'ai pu avoir acces a un code python qui s'executer sur un autre service
+- Apres l'avoir analyser j'ai vue que je pouvais faire de l'injection de commande
+- Ensuite en me connectant j'ai fait un reverse shell et j'ai pu obtenir le user flag
+- Pour avoir le root flag j'ai vue qu'il y avait une commande que le user pouvait u=executer en tant que root
+- C'etait une commande python qui utilisait un fichier python
+- J'ai modifier le contenu du fichier en mettant "su" et j'ai fait sudo python3 file.py (ce qui me revenait en gros a "sudo su")
+- Et je suis passer root , ensuite j'ai eu le flag
+
+
+
