@@ -28,3 +28,11 @@ Pour le premier  challenge
 
 
 
+----- Pour lz troisième challenge
+-La première étape consiste à lire attentivement les instructions fournies avec le challenge.
+-Examinez tous les éléments fournis avec le challenge, y compris les fichiers, les énoncés, les captures d'écran, etc. Recherchez les indices qui pourraient vous guider vers la solution.
+-Envisagez les différentes attaques possibles en fonction du type de challenge. Pour un challenge de sécurité web, par exemple, pensez aux injections SQL, aux failles XSS, etc.
+
+
+
+
