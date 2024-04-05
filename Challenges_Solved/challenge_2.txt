@@ -1,0 +1,3 @@
+In this challenge, the photo associated with the subject shows a series of numbers.
+Each number corresponds to the position of a letter in the alphabet.
+Simply replace each number with the corresponding character in the alphabet to find the flag.
