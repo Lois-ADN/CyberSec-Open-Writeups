@@ -1,0 +1,3 @@
+To decrypt the message using the Cypher method
+-You need to use a 3 key, which means shifting each letter three positions in the opposite direction to the alphabet.
+-By shifting each letter by 3 we end up finding the correct character string.
