@@ -1,0 +1,4 @@
+In this challenge, there are two pixelated images
+download the stegsolve tool
+load the two images into the tool
+read the first scrambled1 image in ADD mode to see the flag
